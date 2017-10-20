@@ -2,6 +2,7 @@
 name: Constructor 
 
 #short bio or description ( displayed in the head )
+email: daphne5009@gmail.com
 description: Android developer 
 
 
@@ -15,7 +16,7 @@ description: Android developer
 #(아래는 주요 링크입니다.)
 #footer-links:
 #  dribbble:
-#  email:
+# 
 #  facebook:
 #  flickr:
 #  github: barryclark/jekyll-now
@@ -34,3 +35,4 @@ description: Android developer
 #google_analytics:
 
 theme: jekyll-theme-tactile
+baseurl: 
