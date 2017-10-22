@@ -1,0 +1,7 @@
+1. posting 주제
+	- Scrolling text ( MP3제목  애니메이션 주는효과 )
+	- Scrolling text ( 자체 수직 스크롤링 ) 
+	- RecyclerView 기초 
+	- RecyclerView Decroator 
+	- RecyclerView Item 이동 ( LayoutManager를 이용함 . ) 
+	- 
