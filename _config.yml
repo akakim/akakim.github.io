@@ -1,10 +1,13 @@
-# name of your site 
+﻿# name of your site 
 name: Constructor 
 
 #short bio or description ( displayed in the head )
 email: daphne5009@gmail.com
 description: Android developer 
 
+#URL of your avatar or profile pic ( you could use your github profilePic ) 
+# 당신의 아바트 프로필 사진 ( 깃허프 프로필도 사용 가능하
+avatar :  https://raw.githubusercontent.com/barryclark/jekyll-now/master/images
 
 
 
@@ -14,25 +17,42 @@ description: Android developer
 
 # Includes an icon in the footer for each username you enter
 #(아래는 주요 링크입니다.)
-#footer-links:
-#  dribbble:
-# 
-#  facebook:
-#  flickr:
-#  github: barryclark/jekyll-now
-#  instagram:
-#  linkedin:
-#  pinterest:
-#  rss: # just type anything here for a working RSS icon
-#  twitter: jekyllrb
-##  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-#  youtube: # channel/<your_long_string> or user/<user-name>
-#  googleplus: # anything in your profile username that comes after plus.google.com/
+footer-links:
+  dribbble:
+   email: daphne5009@gmail.com 
+  facebook:
+  flickr:
+  github: akakim
+  instagram:
+  linkedin:
+  pinterest: 
+  rss: # just type anything here for a working RSS icon
+  twitter: 
+  stackoverflow: 
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
 
 
 #(구글 analytics 를 통해 트래킹을 원하면 코드만 적으면 됩니다.)
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-#google_analytics:
+# you can find your shortname on the Settings page of your disqus account 
+google_analytics:
+
+# your website URL ( ex http:/barryclarrk.github.io 
+# used for sitemap.xml and your Rss feed
+url: 
+
 
 theme: jekyll-theme-tactile
-baseurl: https://akakim.github.io/
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+# 만약 당신의 사이트 저장소가 깃허프 페이지에 있다면 (http://당신의 이름.github.io/저장소명)
+# 그리고 당신의 유저 저장소 (http://당신의이름.github.io) 가아니라면 
+# baseURL에 "/저장소 명"을 사용하라 
+# 커스터마이징 URL에 대해 이야기하는 것 같다. 
+baseurl: ""
+
+

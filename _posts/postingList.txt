@@ -4,4 +4,22 @@
 	- RecyclerView 기초 
 	- RecyclerView Decroator 
 	- RecyclerView Item 이동 ( LayoutManager를 이용함 . ) 
+	- CardView 에대해서 .. ( http://mommoo.tistory.com/2) 
+
 	- 
+2. 으응ㅁ.,... 개념이라ㅣㄴㅇ 
+
+	- px dp의 차이 //http://hashcode.co.kr/questions/44/px-dp-dip-sp%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%B4-%EB%AD%94%EA%B0%80%EC%9A%94
+	- https://developer.android.com/guide/practices/screens_support.html?hl=ko
+그러니까 요점은 
+
+dp 자체로는 모든 해상도마다 같은 크기로 지원이된다. 
+왜냐하면 dp 값은 l,m,h,x,xx,xxx별로 pixel에 대해서 변환된 값이다. 
+
+그 . 러 . 나 . 
+
+비율을 보장하지 않는다 따라서 
+
+sdp를 써야한다. 
+dp * 일정 비율을 높인다. 
+
