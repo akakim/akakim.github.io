@@ -1,58 +1,48 @@
-﻿# name of your site 
-name: Constructor 
+title: My personal blog - Adam Neilson
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/adam-blog" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-#short bio or description ( displayed in the head )
-email: daphne5009@gmail.com
-description: Android developer 
+# Author settings
+author: Adam Neilson # add your name
+author-pic: adam-face.jpg
+about-author: My name is Adam Neilson. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 2 years.
 
-#URL of your avatar or profile pic ( you could use your github profilePic ) 
-# 당신의 아바트 프로필 사진 ( 깃허프 프로필도 사용 가능하
-avatar :  https://raw.githubusercontent.com/barryclark/jekyll-now/master/images
+# Contact links
+email: # Add your Email address
+phone: # Add your Phone number
+website: # Add your website, do not add http://
+linkedin: # Add your Linkedin handle
+github: artemsheludko # Add your Github handle
+twitter: '@artemsheludko_' # Add your Twitter handle
+facebook: # Add your Facebook handle
+instagram: # Add your Instagram handle
+pinterest: # Add your Pinterest handle
 
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
 
+# Disqus
+discus_identifier: mr-brown # Add your discus identifier
 
-#
-# Flags below are optional
-#
+# Tracker
+analytics: # Google Analytics
 
-# Includes an icon in the footer for each username you enter
-#(아래는 주요 링크입니다.)
-footer-links:
-  dribbble:
-   email: daphne5009@gmail.com 
-  facebook:
-  flickr:
-  github: akakim
-  instagram:
-  linkedin:
-  pinterest: 
-  rss: # just type anything here for a working RSS icon
-  twitter: 
-  stackoverflow: 
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+# Paginate
+paginate: 6
+paginate_path: /page:num/
 
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
 
-#(구글 analytics 를 통해 트래킹을 원하면 코드만 적으면 됩니다.)
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-# you can find your shortname on the Settings page of your disqus account 
-google_analytics:
-
-# your website URL ( ex http:/barryclarrk.github.io 
-# used for sitemap.xml and your Rss feed
-url: 
-
-
-theme: jekyll-theme-tactile
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-# 만약 당신의 사이트 저장소가 깃허프 페이지에 있다면 (http://당신의 이름.github.io/저장소명)
-# 그리고 당신의 유저 저장소 (http://당신의이름.github.io) 가아니라면 
-# baseURL에 "/저장소 명"을 사용하라 
-# 커스터마이징 URL에 대해 이야기하는 것 같다. 
-baseurl: ""
-
-
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
