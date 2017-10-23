@@ -1,2 +1,0 @@
-# Horizontal Auto Scrolling 
-##  
