@@ -2,7 +2,7 @@
 
 You can use the [editor on GitHub](https://github.com/akakim/akakim/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-
+[editor profile ] (https://avatars0.githubusercontent.com/u/10281693?s=400&u=b1f23c8b437bd758179b752e38d1355407bf28b0&v=4)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
