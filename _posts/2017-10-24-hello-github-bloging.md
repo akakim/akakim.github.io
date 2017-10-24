@@ -9,12 +9,12 @@ author: # Add name author (optional)
 ---
 
 
-{% highlight java %}
+#{% highlight java %}
 
- public static void main {
-    System.out.println("hello java in git blog ");
- }
-{% endhighlight %}
+# public static void main {
+#    System.out.println("hello java in git blog ");
+# }
+#{% endhighlight %}
 
 Check out the [kim docs][my-docs] 
 
