@@ -3,7 +3,7 @@ layout: post
 title: 후쿠오카 마지막날 점심 
 image: fukuoka_lastday_lunch.jpg
 ---
-![점심라멘](https://github.com/akakim/akakim.github.io/tree/master/assets/img/fukuoka_lastday_lunch.jpg)
+![Ramen](https://github.com/akakim/akakim.github.io/tree/master/assets/img/fukuoka_lastday_lunch.jpg)
 # 후쿠오카 마지막 점심
 
 ## 오전 
