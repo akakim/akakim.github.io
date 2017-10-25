@@ -12,11 +12,11 @@ FileProvider에서 만들어진 content URI는 향상된 보안적인 접근을 
 
 ### fileProvider는 다음 주제들을 포함하고 있다.
 
-- 1. FilProvider 정의
-- 2. 유효한 파일 명시
-- 3. 파일을 위한 Content URI를 받는것 
-- 4. 임시적인 권한을 URI에게 주는것 
-- 5. URI Content를 다른 앱에게 제공하는 것 
+1. FilProvider 정의
+2. 유효한 파일 명시
+3. 파일을 위한 Content URI를 받는것 
+4. 임시적인 권한을 URI에게 주는것 
+5. URI Content를 다른 앱에게 제공하는 것 
 
 ## 원문 
 
