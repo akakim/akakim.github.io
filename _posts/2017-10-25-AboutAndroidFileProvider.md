@@ -1,3 +1,8 @@
+---
+layout: post
+title: 
+---
+
 ## FileProvider 안드로이드 누가 대응기 
 
 [안드로이드 개발자 문서](https://developer.android.com/reference/android/support/v4/content/FileProvider.html)
