@@ -10,3 +10,4 @@ author: akakim
 
 kkkk
 
+[jekyll-docs]: https://jekyllrb.com/docs/home
