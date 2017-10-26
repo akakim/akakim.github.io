@@ -1,6 +1,5 @@
 ## Welcome to GitHub Pages
 
-
 <ol class="post-card-box clearfix">
   {% for post in paginator.posts %}
   <li>
