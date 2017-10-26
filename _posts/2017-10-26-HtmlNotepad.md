@@ -8,4 +8,6 @@ title: hello HTML
 
 <div class="felx-container">
 {% include header.html}
+
+{{page.title}}
 </div>
