@@ -1,5 +1,25 @@
 ## Welcome to GitHub Pages
 
+
+<ol class="post-card-box clearfix">
+  {% for post in paginator.posts %}
+  <li>
+    <div class="post-card">
+      <a href="{{post.url | prepend: site.baseurl}}" class="post-card-image" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
+      </a>
+
+      <div class="post-card-body">
+        {% for tag in post.tags %}
+        <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>
+        {% endfor %}
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"><h3 class="post-card-title">{{post.title}}</h3></a>
+      </div>
+
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+
 You can use the [editor on GitHub](https://github.com/akakim/akakim/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 [go to default](https://github.com/akakim/akakim.github.io/blob/master/_layouts/default.html)
