@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://akakim.github.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
-author: akakim# add your name
+author: akakim # add your name
 author-pic: IMG_RAMUS_PROFILE.jpg
 about-author: Normal Andorid Developer for year 
 

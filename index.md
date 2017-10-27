@@ -39,3 +39,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 <b> 아주 굵고 아름답소 </b> <strike> 여긴 스트라이크 존이오 </strike>
+
+{% for post in site.posts %}
+  <a herf="{{ post.url }}">
+    <h2>{{ post.title }} &dash; {{ post.data | date_to_string }}</h2>
+  </a>
+  {% endfor %}
