@@ -1,25 +1,21 @@
-1. posting ÁÖÁ¦
-	- Scrolling text ( MP3Á¦¸ñ  ¾Ö´Ï¸ŞÀÌ¼Ç ÁÖ´ÂÈ¿°ú )
-	- Scrolling text ( ÀÚÃ¼ ¼öÁ÷ ½ºÅ©·Ñ¸µ ) 
-	- RecyclerView ±âÃÊ 
+1. posting ì£¼ì œ
+	- RecyclerView ê¸°ì´ˆ 
 	- RecyclerView Decroator 
-	- RecyclerView Item ÀÌµ¿ ( LayoutManager¸¦ ÀÌ¿ëÇÔ . ) 
-	- CardView ¿¡´ëÇØ¼­ .. ( http://mommoo.tistory.com/2) 
+	- RecyclerView Item ì´ë™ ( LayoutManagerë¥¼ ì´ìš©í•¨ . ) 
+	- CardView ì—ëŒ€í•´ì„œ .. ( http://mommoo.tistory.com/2) 
+2. ìœ¼ì‘ã….,... ê°œë…ì´ë¼ã…£ã„´ã…‡ 
 
-	- 
-2. À¸ÀÀ¤±.,... °³³äÀÌ¶ó¤Ó¤¤¤· 
-
-	- px dpÀÇ Â÷ÀÌ //http://hashcode.co.kr/questions/44/px-dp-dip-sp%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%B4-%EB%AD%94%EA%B0%80%EC%9A%94
+	- px dpì˜ ì°¨ì´ //http://hashcode.co.kr/questions/44/px-dp-dip-sp%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%B4-%EB%AD%94%EA%B0%80%EC%9A%94
 	- https://developer.android.com/guide/practices/screens_support.html?hl=ko
-±×·¯´Ï±î ¿äÁ¡Àº 
+ê·¸ëŸ¬ë‹ˆê¹Œ ìš”ì ì€ 
 
-dp ÀÚÃ¼·Î´Â ¸ğµç ÇØ»óµµ¸¶´Ù °°Àº Å©±â·Î Áö¿øÀÌµÈ´Ù. 
-¿Ö³ÄÇÏ¸é dp °ªÀº l,m,h,x,xx,xxxº°·Î pixel¿¡ ´ëÇØ¼­ º¯È¯µÈ °ªÀÌ´Ù. 
+dp ìì²´ë¡œëŠ” ëª¨ë“  í•´ìƒë„ë§ˆë‹¤ ê°™ì€ í¬ê¸°ë¡œ ì§€ì›ì´ëœë‹¤. 
+ì™œëƒí•˜ë©´ dp ê°’ì€ l,m,h,x,xx,xxxë³„ë¡œ pixelì— ëŒ€í•´ì„œ ë³€í™˜ëœ ê°’ì´ë‹¤. 
 
-±× . ·¯ . ³ª . 
+ê·¸ . ëŸ¬ . ë‚˜ . 
 
-ºñÀ²À» º¸ÀåÇÏÁö ¾Ê´Â´Ù µû¶ó¼­ 
+ë¹„ìœ¨ì„ ë³´ì¥í•˜ì§€ ì•ŠëŠ”ë‹¤ ë”°ë¼ì„œ 
 
-sdp¸¦ ½á¾ßÇÑ´Ù. 
-dp * ÀÏÁ¤ ºñÀ²À» ³ôÀÎ´Ù. 
+sdpë¥¼ ì¨ì•¼í•œë‹¤. 
+dp * ì¼ì • ë¹„ìœ¨ì„ ë†’ì¸ë‹¤. 
 
