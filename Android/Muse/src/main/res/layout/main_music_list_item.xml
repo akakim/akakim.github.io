@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/playback_item_height"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/defaultColor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_9sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_9sdp">
+        <ImageView
+            android:layout_width="@dimen/playback_controls_album_art_size"
+            android:layout_height="@dimen/playback_controls_album_art_size"
+            android:src="@drawable/no_image"
+            android:id="@+id/imageViewAlbumArt"/>
+
+
+        <LinearLayout
+            android:layout_width="@dimen/_199sdp"
+            android:layout_height="@dimen/playback_controls_album_art_size"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:id="@+id/centerLayout">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:contentDescription="@string/currently_playing_song"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp"
+                android:textColor="@color/not_selected_text"
+                android:scrollHorizontally="true"
+                android:gravity="center"
+                android:paddingLeft="@dimen/music_title_padding"
+                android:paddingRight="@dimen/music_title_padding"
+                tool:text="New York, NewYork"/>
+
+            <TextView
+                android:id="@+id/textViewSubTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/currently_playing_artist"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/subtitle_text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="12sp"
+                android:gravity="center"
+                tool:text="WANDAN"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/_14sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:background="@drawable/list_play_on"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageViewPlayButton"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e1e1e1"/>
+</LinearLayout>

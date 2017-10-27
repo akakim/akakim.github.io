@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<translate-->
+        <!--android:duration="1000"-->
+        <!--android:fromXDelta="0"-->
+        <!--android:interpolator="@android:anim/linear_interpolator"-->
+        <!--android:toXDelta="0" />-->
+    <!--<translate-->
+        <!--android:duration="5000"-->
+        <!--android:fromXDelta="100"-->
+        <!--android:interpolator="@android:anim/linear_interpolator"-->
+.
+        <!--android:repeatMode="restart"-->
+        <!--android:toXDelta="0" />-->
+
+
+    <translate
+        android:fromXDelta="0%p"
+        android:toXDelta="-100%p"
+        android:duration="5000"
+        android:repeatCount="infinite"
+        android:interpolator="@android:anim/linear_interpolator"/>
+
+    <!--<translate-->
+        <!--android:startOffset="2000"-->
+        <!--android:fromXDelta="-100%p"-->
+        <!--android:toXDelta="-100%p"-->
+        <!--android:duration="2000"-->
+        <!--android:repeatCount="infinite"-->
+        <!--android:interpolator="@android:anim/linear_interpolator"/>-->
+    <!--<translate-->
+        <!--android:startOffset="1000"-->
+        <!--android:fromXDelta="100"-->
+        <!--android:toXDelta="0"-->
+        <!--android:duration="1000"-->
+        <!--android:repeatCount="infinite"-->
+        <!--android:interpolator="@android:anim/linear_interpolator"-->
+        <!--/>-->
+
+</set>
+<!--<translate-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:startOffset="1000"-->
+    <!--android:fromXDelta="100"-->
+    <!--android:toXDelta="0"-->
+    <!--android:duration="1000"-->
+    <!--android:repeatCount="infinite"-->
+    <!--android:interpolator="@android:anim/linear_interpolator"/>-->

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:background="@drawable/top_bg"-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:padding="0dp"-->
+        <!--&gt;-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:visibility="gone">-->
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/refreshBtn"-->
+                <!--android:text="refresh"-->
+                <!--android:src="@drawable/refresh_icon"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:id="@+id/switchTv"-->
+                <!--android:text="서버"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textColor="#ffffff00"-->
+                <!--android:layout_toLeftOf="@id/refreshBtn"-->
+                <!--android:gravity="center" />-->
+        <!--</RelativeLayout>-->
+    <!--</android.support.v7.widget.Toolbar>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_163sdp"
+        android:id="@+id/toolbar"
+        android:background="@drawable/top_bg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:id="@+id/titleLayout"
+            android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/_21sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_17sdp"
+                    android:layout_marginTop="@dimen/_17sdp"
+                    android:layout_marginBottom="@dimen/_18sdp"
+                    android:src="@drawable/menu_off"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center_vertical"/>
+                <ImageView
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_29sdp"
+                    android:src="@drawable/logo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"/>
+                <ImageView
+                    android:layout_width="@dimen/_17sdp"
+                    android:layout_height="@dimen/_19sdp"
+                    android:id="@+id/refreshBtn"
+                    android:src="@drawable/reload_off"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    android:layout_marginRight="@dimen/_16sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_72sdp"
+            android:textSize="30sp"
+            android:layout_below="@id/titleLayout"
+            android:gravity="center">
+
+                <WebView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:id="@+id/adWebView"
+
+                    />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/category_bg"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_6sdp">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/spinnerCategoryId"
+                android:prompt="@string/defaultPrompt"
+                android:visibility="visible"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pop"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_7sdp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@+id/controls_container">
+
+        <fragment android:name="com.tripath.muse.fragments.MusicListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            tools:layout="@layout/fragment_music_list"
+            android:tag="MusicListFragment"/>
+
+
+     </FrameLayout>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/controls_container"
+        android:layout_alignParentBottom="true">
+
+        <fragment android:name="com.tripath.muse.fragments.PlaybackControlsFragment"
+            android:id="@+id/fragment_playback_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            tools:layout="@layout/fragment_layout_controls"
+            android:tag="PlaybackControlsFragment"/>
+    </android.support.v7.widget.CardView>
+
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/musicList"/>-->
+
+</RelativeLayout>

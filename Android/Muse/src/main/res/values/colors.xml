@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="defaultColor">#FFF</color>
+    <color name="colorSelected">#E1E1E1</color>
+    <color name="colorPrimary">#F5F5F5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent_black">#66000000</color>
+    <color name="selected_text">#FF0099ff</color>
+    <color name="subtitle_text">#FFa1a1a1</color>
+    <color name="not_selected_text">#FF616161</color>
+
+    <color name="yellow">#CDCD00</color>
+    <color name="green">#33FF33</color>
+    <color name="purple">#9900FF</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
+
+
+</resources>

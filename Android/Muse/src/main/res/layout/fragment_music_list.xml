@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tripath.muse.fragments.MusicListFragment">
+
+    <com.tripath.muse.views.SwipeRefreshLayoutBottom
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/musicContainer">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/musicList"/>
+
+    </com.tripath.muse.views.SwipeRefreshLayoutBottom>
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>

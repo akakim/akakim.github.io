@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_margin="@dimen/_45sdp"
+        android:src="@drawable/logo_splash"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="54dp"
+        android:id="@+id/imageLogo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:drawablePadding="7.5dp"
+        android:text="QSales"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnGoSample"
+        android:text="Go Sample"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:visibility="gone"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageLogo" />
+
+
+    <LinearLayout
+
+        android:id="@+id/loInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginLeft="8dp"
+
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoSample"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="-1dp">
+
+
+        <EditText
+            android:id="@+id/edId"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_51sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:hint="아이디를 입력하세요"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/ed_hint"
+            android:textSize="@dimen/login_text_size" />
+
+        <EditText
+            android:id="@+id/edPwd"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_51sdp"
+            android:layout_marginLeft="@dimen/login_side_margin"
+            android:layout_marginRight="@dimen/login_side_margin"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:hint="비밀번호를 입력하세요"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:textColorHint="@color/ed_hint"
+            android:textSize="@dimen/login_text_size"
+            />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/login_side_margin"
+            android:layout_marginRight="@dimen/login_side_margin"
+            android:layout_marginTop="@dimen/_17sdp"
+            android:layout_weight="1"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="로그인"
+            android:textSize="@dimen/login_text_size"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkboxAutoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:buttonTint="@color/btn_main"
+            android:text="자동로그인"
+            android:textColor="@color/ed_hint"
+            android:textSize="@dimen/_10sdp"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/btnJoin"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_51sdp"
+                android:layout_weight="1"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/login_side_margin"
+                android:layout_marginRight="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="회원가입"
+                android:textColor="#f000"
+                />
+
+
+            <TextView
+                android:id="@+id/btnFindPassword"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_51sdp"
+                android:layout_weight="1"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_marginRight="@dimen/login_side_margin"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="비밀번호찾기"
+                android:textColor="#f000"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

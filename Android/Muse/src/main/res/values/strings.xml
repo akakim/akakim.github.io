@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WEZIC</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="currently_playing_song">Song currently playing</string>
+    <string name="currently_playing_artist">Artist of currently playing song</string>
+    <string name="currently_playing_extra_info">Extra info for currently playing song</string>
+    <string name="play_pause">play or pause</string>
+
+
+    <string name="stopAndPlay">stopAndPlay</string>
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+    <string name="stop">stop</string>
+    <string name="fastwind">fastwind</string>
+    <string name="nextWind">next</string>
+    <string name="local_service_started">MusicService</string>
+    <string name="defaultPrompt">Pop</string>
+
+</resources>

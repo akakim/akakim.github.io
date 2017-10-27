@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="login_side_margin">@dimen/_15sdp</dimen>
+    <dimen name="login_text_size">@dimen/_11sdp</dimen>
+    <dimen name="login_hint_size">@dimen/_9sdp</dimen>
+
+    <dimen name="row_side_margin">@dimen/_9sdp</dimen>
+    <dimen name="join_row_title_width">@dimen/_100sdp</dimen>
+    <dimen name="join_row_height">@dimen/_33sdp</dimen>
+    <dimen name="join_row_margin_top">@dimen/_9sdp</dimen>
+
+    <!-- 2 division layout of acv_join -->
+    <dimen name="join_row_sub_height_top">@dimen/_17sdp</dimen>
+    <dimen name="join_row_sub_height_bottom">@dimen/_16sdp</dimen>
+
+    <dimen name="margin_edit_text">@dimen/_5sdp</dimen>
+    <dimen name="edit_text_padding_left">@dimen/_5sdp</dimen>
+
+    <dimen name="line_width">1px</dimen>
+    <dimen name="text_row_item_title">@dimen/_13sdp</dimen>
+    <dimen name="text_row_item_sub_title">@dimen/_10sdp</dimen>
+
+    <dimen name="height_appbar">@dimen/_45sdp</dimen>
+    <dimen name="text_size_appbar">@dimen/_15sdp</dimen>
+
+    <dimen name="dlg_title_height">@dimen/_35sdp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+
+
+</resources>

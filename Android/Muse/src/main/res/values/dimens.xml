@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- sw360dp-v13\values-sw360dp-v13.xml 참조 -->
+    <dimen name="playback_controls_albumart_horizontal_margin">@dimen/_4sdp</dimen>
+    <dimen name="playback_controls_album_art_size">@dimen/_47sdp</dimen>
+
+    <dimen name="playback_controls_height">@dimen/_68sdp</dimen>
+    <dimen name="playback_item_height">@dimen/_67sdp</dimen>
+
+
+    <dimen name="playback_controls_button_size">@dimen/_15sdp</dimen>
+    <dimen name="playback_controls_button_height_size">@dimen/_18sdp</dimen>
+    <dimen name="playback_controls_padding">@dimen/_9sdp</dimen>
+    <dimen name="music_title_padding">@dimen/_10sdp</dimen>
+    <dimen name="align_margin">@dimen/_10sdp</dimen>
+
+
+
+    <!-- Nofication bar button -->
+    <dimen name="notification_controller_size">56dp</dimen>
+    <dimen name="status_bar_button_width_height">48dp</dimen>
+    <dimen name="status_bar_album_art">64dp</dimen>
+    <dimen name="status_bar_button_info_container_padding_left">11dp</dimen>
+    <dimen name="notification_expanded_height">128.0dip</dimen>
+    <dimen name="play_controls_notification">48.0dip</dimen>
+    <dimen name="notification_padding">8.0dip</dimen>
+
+
+</resources>

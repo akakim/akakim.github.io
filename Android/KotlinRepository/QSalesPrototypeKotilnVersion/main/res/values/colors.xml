@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#222</color>
+    <color name="colorAccent">#222</color>
+    <color name="windowBackground">#fff</color>
+
+    <color name="bg_row_item_title">#fff</color>
+    <color name="text_row_item_title">#4d4d4d</color>
+    <color name="border_line">#777</color>
+
+    <color name="app_bar">#111</color>
+
+    <color name="splash_ver">#e36666</color>
+
+    <color name="btn_main">#e14e4e</color>
+    <color name="btn_dark">#555556</color>
+    <color name="btn_dimm">#a0a0a0</color>
+
+    <color name="ed_hint">#9e9e9e</color>
+
+    <color name="transparent_black">#66000000</color>
+</resources>

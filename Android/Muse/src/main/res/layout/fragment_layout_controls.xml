@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2014 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/playback_controls_height"
+    android:background="@drawable/play_bar_bg"
+
+    android:paddingTop="@dimen/_9sdp"
+    android:paddingLeft="@dimen/_10sdp"
+    android:paddingRight="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_9sdp">
+    <ImageView
+        android:id="@+id/album_art"
+        android:src="@drawable/no_image"
+        android:layout_width="@dimen/playback_controls_album_art_size"
+        android:layout_height="@dimen/playback_controls_album_art_size"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/currently_playing_song"
+        android:layout_alignParentStart="true"
+        android:visibility="visible" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="@dimen/_165sdp"
+        android:layout_height="@dimen/playback_controls_album_art_size"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:id="@+id/centerLayout"
+        android:layout_toRightOf="@id/album_art"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:contentDescription="@string/currently_playing_song"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp"
+            android:textColor="#0099ff"
+            android:scrollHorizontally="true"
+            android:gravity="center"
+            tools:text="New York, NewYork"
+            android:paddingLeft="@dimen/music_title_padding"
+            android:paddingRight="@dimen/music_title_padding"
+             />
+
+        <TextView
+            android:id="@+id/artistAndPublish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/currently_playing_artist"
+            android:ellipsize="end"
+            android:maxLines="1"
+
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="12sp"
+            android:gravity="center"
+            tools:text="John Doe and Band" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/extra_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/currently_playing_extra_info"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="gone"
+        tools:text="casting to MyCast" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/centerLayout"
+        android:id="@+id/layoutPlayPause"
+        android:padding="12dp">
+            <ImageButton
+                android:id="@+id/play_pause"
+                android:layout_width="@dimen/playback_controls_button_size"
+                android:layout_height="@dimen/playback_controls_button_height_size"
+                android:contentDescription="@string/play_pause"
+                android:background="@drawable/play"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/layoutFastWind"
+        android:layout_toEndOf="@id/layoutPlayPause"
+        android:padding="12dp">
+            <ImageButton
+                android:layout_width="@dimen/playback_controls_button_size"
+                android:layout_height="@dimen/playback_controls_button_height_size"
+                android:background="@drawable/next_on"
+                android:contentDescription="@string/play_pause"
+                android:visibility="visible"
+                android:layout_gravity="center"
+                android:id="@+id/fastWind"/>
+    </LinearLayout>
+
+</RelativeLayout>

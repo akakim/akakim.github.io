@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/notification_padding">
+
+
+    <ImageView
+        android:layout_width="@dimen/status_bar_button_width_height"
+        android:layout_height="@dimen/status_bar_button_width_height"
+        android:gravity="center"
+        android:src="@drawable/no_image"
+        android:id="@+id/albumArt"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <LinearLayout
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="@dimen/status_bar_button_width_height"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/contentLayout"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/albumArt">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="13sp"
+            android:textColor="#0099ff"
+            android:scrollHorizontally="true"
+            android:gravity="center"
+            android:paddingLeft="@dimen/music_title_padding"
+            android:paddingRight="@dimen/music_title_padding"
+            tools:text="New Work hello dady "
+            android:id="@+id/textTitle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="11sp"
+            android:scrollHorizontally="true"
+            android:gravity="center"
+            android:paddingLeft="@dimen/music_title_padding"
+            android:paddingRight="@dimen/music_title_padding"
+            tools:text="New Work hello dady "
+            android:id="@+id/textSubTitle"
+            android:textColor="#a0a0a0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/status_bar_button_width_height"
+        android:layout_toEndOf="@id/contentLayout"
+        android:id="@+id/layoutPlay"
+        android:padding="12dp"
+        android:visibility="invisible">
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="@dimen/playback_controls_button_size"
+            android:layout_height="@dimen/playback_controls_button_height_size"
+            android:contentDescription="@string/play_pause"
+            android:background="@drawable/play"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/status_bar_button_width_height"
+        android:layout_toEndOf="@id/contentLayout"
+        android:id="@+id/layoutPause"
+        android:padding="12dp"
+        android:visibility="visible">
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="@dimen/playback_controls_button_size"
+            android:layout_height="@dimen/playback_controls_button_height_size"
+            android:contentDescription="@string/play_pause"
+            android:background="@drawable/pause"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/status_bar_button_width_height"
+        android:id="@+id/layoutFastWind"
+        android:layout_toEndOf="@id/layoutPlay"
+        android:padding="12dp">
+        <ImageButton
+            android:layout_width="@dimen/playback_controls_button_size"
+            android:layout_height="@dimen/playback_controls_button_height_size"
+            android:background="@drawable/next_on"
+            android:contentDescription="@string/play_pause"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            android:id="@+id/fastWind"/>
+    </LinearLayout>
+
+</RelativeLayout>
