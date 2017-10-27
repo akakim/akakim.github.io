@@ -1,6 +1,8 @@
 ---
 layout: post
 title: TextView의 스크롤링
+img: post-3.jpg # Add image post (optional)
+tags: [Blog, Android]
 ---
 # TextView의 스크롤링에 대하여  
 
