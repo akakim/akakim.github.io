@@ -1,5 +1,5 @@
 ﻿1. posting 주제
-	- RecyclerView 기초 
+//	- RecyclerView 기초 
 	- RecyclerView Decroator 
 	- RecyclerView Item 이동 ( LayoutManager를 이용함 . ) 
 	- CardView 에대해서 .. ( http://mommoo.tistory.com/2) 
@@ -31,3 +31,5 @@ sdp를 써야한다.
 dp * 일정 비율을 높인다. 
 
 3. FragmentPagerAdapter 와 FragmentStatePagerAdapter 를 사용한ㄷ. 
+
+6 MediaPlayer
