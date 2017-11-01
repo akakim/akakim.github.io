@@ -1,5 +1,5 @@
 ---
-layout: home-page
+layout: post
 ---
 
 ## Welcome to GitHub Pages
