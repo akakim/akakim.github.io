@@ -1,5 +1,5 @@
 ---
-layout: index-layout
+layout: tag-page
 ---
 
 ## Welcome to GitHub Pages
