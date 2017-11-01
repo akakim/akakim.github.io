@@ -1,11 +1,13 @@
 ---
 layout: post
 title: ViewPager
-tag: [blog][Android]
+time: 2017-11-01 10:27:00
+img: post-3.jpg
+tags: [Blog][Android]
 ---
 
 
-# viewpager
+# ViewPager 사용기
 
 
 dependency
@@ -42,4 +44,6 @@ floating 버튼을 이용하여, Fragment안의 List를 아이템을 갱신하�
 
 그래서 ViewPager는 정적인 페이지를 노출하고자할때, 사용하는게나을거같다.
 
-뷰페이저안의 목록들이 동적이여야만 한다면 , 커스터마이징이 더 들어가야될거같다.
+뷰페이저안의 목록들이 동적이여야만 한다면, 커스터마이징이 더 들어가야될거같다.
+
+![꿈꾸는개발자의로그](http://www.kmshack.kr/2013/03/viewpager%EC%9D%98-pageradapter-positionnone%EC%9D%98-%EB%B9%84%EB%B0%80/)

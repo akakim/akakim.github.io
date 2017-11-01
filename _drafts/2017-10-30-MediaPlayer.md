@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MediaPlayerHistory 
-tag: [blog][Android][MediaPlayer]
+tags: [blog][Android][MediaPlayer]
 ---
 
 # MediaPlayer 이용기
@@ -32,8 +32,6 @@ Android에서 MP3나 비디오 재생, 스트리밍을 꽤나 편리하게 해�
 6. MediaPlayer.isPlaying 메소드는 개발자 문서에서도 나왔듯 idle상태에서 호출을 못하므로 반드시 생각한다.
 7. 반드시 음악을 정지하고 초기화 한다. -> stop을 호출한뒤 reset을 한다. 안그러면 자꾸 버퍼링이 걸려있다.
 
-
-**++더럽게 까다롭다. 개발자문서에는 설명도 많이없고 .. ++**
 
 
 - 추가적으로 고민이 된건 리스트 형태로 이루어진 데이터를 누가 어떻게 관리하느냐 였다. 그것을 구글 예제의 방향을 가는게 맞는거같다 .
