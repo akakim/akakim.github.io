@@ -44,9 +44,9 @@ Hello{{user.name}}
 Hello Adam!
 
 Tags는 세가지 타입으로 나뉘어진다. 
-* Control Flow
-* Iteration
-* Varaible assignments;
+* 흐름 제어 
+* 반복 
+* 변수 할당
 
 
 ### Filters
