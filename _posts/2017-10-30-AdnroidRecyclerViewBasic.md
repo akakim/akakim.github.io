@@ -35,7 +35,6 @@ RecyclerView를 생성시 반드시 생성 되어야 하며 이를통해 모든 
 
 개인적으로 드는 의구심은 Grid로 하느냐 Linear로 레이아웃의 아이템을 적용할때 xml 상으로 2개를 다 그려줘야되는건지 아니면 xml을 하나만 해도 상관없는건지 알아봐야될거같습니다.
 
-++애니메이션 효과나 다양한 팁들을 LayoutManager를 이용해 구현이 가능합니.자세한 건 다음에++
 
 ## 4.ViewHolder
 ViewHolder는 기존 ListView에서도 많이 추천되는 패턴이였는데 RecyclerView로 넘어오면서, 강제로 해줘야한다.
