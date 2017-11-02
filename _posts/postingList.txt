@@ -33,3 +33,90 @@ dp * 일정 비율을 높인다.
 3. FragmentPagerAdapter 와 FragmentStatePagerAdapter 를 사용한ㄷ. 
 
 6 MediaPlayer
+
+
+7. 메모리 누수의 패턴. http://www.kmshack.kr/2017/03/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%9D%98-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%88%84%EC%88%98-%ED%8C%A8%ED%84%B4/
+
+8. 안드로이드 어플리케이션 아키텍쳐 http://www.kmshack.kr/2017/04/android-application-architecture/
+
+9. java 는 Call By Value 인가 Call By Reference인가.. 
+
+
+
+
+클래스 자체 혹은 primitive 한 변수를 대입하는건 call by Value 
+
+클래스 내부의 멤버변수에 대해선 call by referernce로 보이기도 한다. 
+다음 예제이다. 
+
+셈플코드 
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+		System.out.println( " ----- call by value -----");
+		Person p = new Person( "wooowooo");
+		
+		System.out.println(p.toString());
+		callByValue(p);
+		System.out.println(p.toString());
+		
+		Person p2 = new Person( "person12");
+		
+		
+		System.out.println(" ---- call by referernce -----" ) ;
+		System.out.println(p2.toString());
+		callByReference(p2);
+		System.out.println(p2.toString());
+		
+		
+		
+		System.out.println(" ---- in String case of call by referernce -----" ) ;
+
+		String inputValue = " input Value for String ";
+		System.out.println(inputValue);
+		callByReferenced(inputValue);
+		System.out.println(inputValue);
+		
+		
+		boolean isPrimitive = false;
+
+		System.out.println(" ---- in boolean case of call by referernce -----" ) ;
+
+		
+		System.out.println("isPrimitive : " + isPrimitive);
+		reference(isPrimitive);
+		System.out.println("isPrimitive : " + isPrimitive);
+
+		
+	}
+
+	public static void reference(boolean isPrimitive){
+		isPrimitive = true;
+	}
+	public static void callByValue(Person p ){
+		p.name = "CallByValueKevin";
+	}
+	
+	public static void callByReference ( Person p){
+		p = new Person("CallByReferencePerson");
+	}
+
+	public static void callByReferenced( String input){
+		input = "hey i ' m referernced input";
+	}
+	static class Person{
+		public String name;
+
+		Person(String name){
+			this.name = name;
+		}
+		
+		@Override
+		public String toString(){
+			return "Person name : "  + this.name;
+		
+		}
+	}
+
+
