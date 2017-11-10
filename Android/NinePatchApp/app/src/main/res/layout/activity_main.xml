@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.ninepatchapp.MainActivity">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/center_circle_rb"
+        android:id="@+id/tvDefaultView"/>
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/frame_text_gradient_rb"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDefaultView"
+        android:id="@+id/linearLayout"
+        android:orientation="horizontal"/>
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:background="@drawable/button_deep_purple_guidline"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="nextActivity"
+        android:textColor="#fff"
+        android:id="@+id/btnNextButton"/>
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+
+        android:background="@drawable/button_deep_purple"
+
+
+        app:layout_constraintLeft_toRightOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="text "
+        android:textColor="#fff"/>
+</android.support.constraint.ConstraintLayout>
