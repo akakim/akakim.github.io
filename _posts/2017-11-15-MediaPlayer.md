@@ -1,7 +1,7 @@
 ---
 layout: post-none-image
 title: MediaPlayerHistory 
-tags: [blog][Android][MediaPlayer]
+tags: [blog,Android,MediaPlayer]
 ---
 
 # MediaPlayer 이용기
