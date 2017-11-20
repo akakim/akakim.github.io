@@ -41,7 +41,11 @@ dp * 일정 비율을 높인다.
 
 9. java 는 Call By Value 인가 Call By Reference인가.. 
 
+10 . Annotation에 대해서 .
+Retention , SupperessWarnning, 
 
+11. java Reflection  에대해서 
+method정리 ? Kotlin에서도 똑같이 쓰이니 자바에서 제대로 알아두면 비슷할거처럼 보인다. 
 
 
 클래스 자체 혹은 primitive 한 변수를 대입하는건 call by Value 
