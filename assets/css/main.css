@@ -866,11 +866,12 @@ pre code {
   margin: 0 auto;
   position: relative;
 }
+/* for none picture script */
 .wrapper-for-none-picture{
   
   width: 960px;
   max-width: 90%;
-  margin: 2vh auto;
+  margin: 4vh auto;
   position: relative;
   
 }
