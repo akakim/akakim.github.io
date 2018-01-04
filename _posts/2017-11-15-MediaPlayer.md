@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MediaPlayerHistory 
+img: post-6.jpg
 tags: [blog,Android,MediaPlayer]
 ---
 
