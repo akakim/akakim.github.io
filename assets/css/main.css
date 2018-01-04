@@ -866,6 +866,14 @@ pre code {
   margin: 0 auto;
   position: relative;
 }
+.wrapper-for-none-picture{
+  
+  width: 960px;
+  max-width: 90%;
+  margin: 2vh auto;
+  position: relative;
+  
+}
 
 ::-moz-selection {
   background: rgba(49, 30, 62, 0.7);
