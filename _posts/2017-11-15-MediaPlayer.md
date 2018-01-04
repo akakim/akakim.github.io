@@ -1,5 +1,5 @@
 ---
-layout: post-none-image
+layout: post
 title: MediaPlayerHistory 
 tags: [blog,Android,MediaPlayer]
 ---
