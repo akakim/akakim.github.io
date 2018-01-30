@@ -100,5 +100,7 @@ Adapter를 상속받아 구현하는 클래스는 코드 작성하는 입장에�
 
 좀 더 자세한 내용과 실습한 내용들을 찾아가며 포스팅을 하도록 하겠습니다~
 
+reference 
 [이상한 모임 블로그](https://blog.weirdx.io/post/1548)
+
 [꿈꾸는 개발자의 로그](http://www.kmshack.kr/?s=ViewPager)
