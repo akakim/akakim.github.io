@@ -3,7 +3,7 @@ layout: post
 title:ViewPager의 기본적인 구성 및 예제
 date:   2018-01-30 18:00:00 +0300
 description: ViewPager Basic
-tags: [Android, ViewPager,UI]
+tags: [Android,ViewPager,UI]
 author: akakim
 ---
 ##ViewPager란.
