@@ -49,11 +49,18 @@ https://github.com/PhilJay/MPAndroidChart
 
 - > 서버에 저장서비스는 추후 생각. (이건 유료 ) 
 
-
-
-
 --- 
 2017.11.28 
 입력란 작성준비 .
 
 2018.01.30
+
+왜 Fragment는 빈 생성자를 생성해야만 하는가. 
+http://itpangpang.xyz/288
+
+ViewPager에 대해서 어떤, 
+
+EditText KeyboardEvent show/ hide event 잡기 
+
+
+http://itpangpang.xyz/345?category=562822
