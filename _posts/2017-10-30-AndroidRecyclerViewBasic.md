@@ -2,6 +2,7 @@
 layout: post
 title: RecyclerView에 대해서. 
 date: 2017.10.30 11:52:00
+permalink : /Android/2017/10/30/RecyclerviewBasic
 tags: [Blog,Android,Wiget]
 ---
 
