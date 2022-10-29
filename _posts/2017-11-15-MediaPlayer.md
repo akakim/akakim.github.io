@@ -1,7 +1,8 @@
 ---
 layout: post-none-image
-title: MediaPlayerHistory 
+title: MediaPlayerHistory
 img: post-6.jpg
+permalink : /Android/2017/11/15/MediaPlayer
 tags: [blog,Android,MediaPlayer]
 ---
 
