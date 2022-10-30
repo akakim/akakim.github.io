@@ -19,15 +19,15 @@ author-pic: IMG_RAMUS_PROFILE.jpg
 about-author: Normal Andorid Developer for year 
 
 # Contact links
-email: daphne5009@gmail.com# Add your Email address
+email: daphne5009@gmail.com
 phone: # Add your Phone number
 website: # Add your website, do not add http://
 linkedin: # Add your Linkedin handle
 github: akakim # Add your Github handle
-twitter: # Add your Twitter handle
-facebook: # Add your Facebook handle
-instagram: # Add your Instagram handle
-pinterest: # Add your Pinterest handle
+#twitter: # Add your Twitter handle
+#facebook: # Add your Facebook handle
+#instagram: # Add your Instagram handle
+#pinterest: # Add your Pinterest handle
 
 # Newsletter
 mailchimp: # Add your MailChimp form identifier.
